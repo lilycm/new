@@ -74,6 +74,42 @@ body, *{
 
 /* about section end */
 
+
+
+/* plan section start */
+.plan{
+    margin-top: 100px;
+}
+
+
+.plan .plan-title{
+    text-align: center;
+    
+}
+
+.plan .plan-title h2{
+    font-weight: bold;
+    color: black;
+}
+
+.plan .my-plans{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+.plan .my-plans .plan{
+    text-align: center;
+}
+.plan .my-plans .plan h3{
+    padding: 10px 0px;
+}
+
+.plan .my-plans .plan h5{
+    color: #838181;
+}
+/* plan section end */
+
+
 .container{
     width: 1200px;
     height:318px;
