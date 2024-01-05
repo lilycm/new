@@ -1,8 +1,47 @@
 
-body{
+body, *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
+
+/* header section start */
+#header{
+    background: url("../images/banner/banner3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+}
+
+
+#header .header-text .header-title{
+    text-align: right;
+    padding:250px 200px;
+    color: white;
+}
+#header .header-text .header-title h1{
+    font-weight: bold;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+#header .header-text .header-title p{
+    padding-bottom: 20px;
+}
+
+#header .header-text .header-title .contact-btn{
+    color: #005FAC;
+    padding: 15px 25px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+/* header section end*/
+
+
+
 .container{
     width: 1200px;
     height:318px;
