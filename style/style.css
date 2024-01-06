@@ -84,6 +84,7 @@ body, *{
 
 .plan .plan-title{
     text-align: center;
+    padding-bottom: 20px;
     
 }
 
@@ -97,15 +98,17 @@ body, *{
     justify-content: space-evenly;
     padding-bottom: 100px;
 }
-.plan .my-plans .plan{
+.plan .my-plans .plans{
     text-align: center;
 }
 .plan .my-plans .plan h3{
     padding: 10px 0px;
 }
 
-.plan .my-plans .plan h5{
+.plan .my-plans .plans h5{
     color: #838181;
+    padding-top: 10px;
+    font-size: 18px;
 }
 /* plan section end */
 
@@ -144,3 +147,74 @@ body, *{
     font-weight: bold;
     border-radius: 7px;
 }
+
+/* footer section start */
+footer{
+    margin-top: 120px;
+    background: black;
+    max-height: 570px;
+}
+
+.footer-information{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.footer-information .footer-detail{
+    color: white;
+    padding: 60px 40px;
+}
+
+.footer-information .footer-detail p{
+    width: 500px;
+    padding: 20px 0px;
+}
+
+.footer-information .footer-detail .smm-logo{
+    padding: 20px 0px;
+}
+.footer-information .footer-detail .smm-logo img{
+    margin-right: 10px;
+}
+
+.footer-information .footer-form form{
+    display: flex;
+    flex-direction: column;
+}
+.footer-information .footer-form{
+    padding: 60px 40px;
+}
+
+
+.footer-information .footer-form form span{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 30px;
+}
+
+.footer-information .footer-form form input{
+    padding: 15px 40px;
+    border: 1px solid white;
+    background: none;
+    border-radius: 7px;
+    margin-bottom: 30px;
+}
+
+.footer-information .footer-form form input::placeholder{
+    color: white;
+}
+
+.footer-information .footer-form form .subscribe button{
+    padding: 18px 25px;
+    border: none;
+    background: #005FAC;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 7px;
+
+}
+
+/* footer section end */
